@@ -6,4 +6,4 @@ result = ""
 for letter in alphabet:
     if letter != 'e' and letter != 'q':
         result += letter
-print(result)
+print("{}".format(result))
